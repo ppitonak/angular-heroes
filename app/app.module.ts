@@ -31,7 +31,7 @@ import { HeroService }         from './hero.service';
   ],
   declarations: [
     AppComponent,
-    DashboardComponent
+    DashboardComponent,
     HeroDetailComponent,
     HeroesComponent
   ],
