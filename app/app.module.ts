@@ -13,6 +13,7 @@ import { AppComponent }        from './app.component';
 import { DashboardComponent }  from './dashboard.component';
 import { HeroesComponent }     from './heroes.component';
 import { HeroDetailComponent } from './hero-detail.component';
+import { HeroFormComponent }   from './hero-form.component';
 import { HeroSearchComponent } from './hero-search.component';
 import { HeroService }         from './hero.service';
 
@@ -30,6 +31,7 @@ import { AppRoutingModule }    from './app-routing.module';
     AppComponent,
     DashboardComponent,
     HeroDetailComponent,
+    HeroFormComponent,
     HeroesComponent,
     HeroSearchComponent
   ],
