@@ -4,6 +4,7 @@
     }
 .heroes {
     margin: 0 0 2em 0;
+    line-height: normal;
     list-style-type: none;
     padding: 0;
     width: 15em;
@@ -15,7 +16,7 @@
     background-color: #EEE;
     margin: .5em;
     padding: .3em 0;
-    height: 1.6em;
+    height: 1.8em;
     border-radius: 4px;
 }
 .heroes li.selected:hover {
@@ -48,8 +49,8 @@
 
 button.delete {
   float:right;
-  margin-top: 2px;
-  margin-right: .8em;
+  /*margin-top: 2px;*/
+  margin-right: .6em;
   background-color: gray !important;
   color:white;
 }
