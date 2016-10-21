@@ -1,10 +1,16 @@
 {
-  "name": "angular-quickstart",
+  "name": "angular-heroes",
   "version": "1.0.0",
+  "description": "Simple Angular 2 application",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ppitonak/angular-heroes"
+  },
   "scripts": {
-    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
+    "lint": "find app -name '*.ts' | xargs tslint -c tslint.json --force",
     "lite": "lite-server",
     "postinstall": "typings install",
+    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "typings": "typings"
@@ -29,8 +35,10 @@
     "zone.js": "^0.6.25"
   },
   "devDependencies": {
+    "codelyzer": "^1.0.0-beta.2",
     "concurrently": "^3.0.0",
     "lite-server": "^2.2.2",
+    "tslint": "^3.15.1",
     "typescript": "^2.0.3",
     "typings": "^1.4.0"
   }
