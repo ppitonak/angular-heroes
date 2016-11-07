@@ -10,6 +10,7 @@ import { InMemoryDataService }  from './in-memory-data.service';
 import './rxjs-extensions';
 
 import { AppComponent }        from './app.component';
+import { BannerComponent }     from './banner.component';
 import { DashboardComponent }  from './dashboard.component';
 import { HeroesComponent }     from './heroes.component';
 import { HeroDetailComponent } from './hero-detail.component';
@@ -29,6 +30,7 @@ import { AppRoutingModule }    from './app-routing.module';
   ],
   declarations: [
     AppComponent,
+    BannerComponent,
     DashboardComponent,
     HeroDetailComponent,
     HeroFormComponent,
